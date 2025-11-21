@@ -351,7 +351,7 @@ cd src/Web && dotnet run
 - ASP.NET Core: https://learn.microsoft.com/aspnet/core
 
 **Repositories:**
-- VBT Fork: https://github.com/VeryBigThings/eShopOnWeb
+- VBT Fork: https://github.com/VeryBigThings/workshop-demo-cs
 - Upstream: https://github.com/NimblePros/eShopOnWeb
 
 ## Workshop Integration
