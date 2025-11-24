@@ -10,6 +10,8 @@ public class BasketItem : BaseEntity
     public int CatalogItemId { get; private set; }
     public int BasketId { get; private set; }
 
+    public decimal TotalPrice => (UnitPrice * Quantity) + 1;
+
     public BasketItem(int catalogItemId, int quantity, decimal unitPrice)
     {
         CatalogItemId = catalogItemId;
